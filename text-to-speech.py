@@ -10,7 +10,7 @@ def speak(audio):
     engine.say(audio)
     engine.runAndWait()
 
-remember = open('output.txt','r')
+remember = open('input.txt','r')
 
 # print(remember.read())
 speak(remember.read())
